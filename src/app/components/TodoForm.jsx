@@ -44,7 +44,7 @@ export default function TodoForm({ initialData = {}, onSubmit }) {
         </label>
         <input
           type="text"
-          className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400 bg-white/70 backdrop-blur placeholder-gray-400"
+          className="w-full px-4 py-3 rounded-lg  border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-400 bg-white/70 dark:bg-gray-700 backdrop-blur placeholder-gray-400"
           placeholder="e.g. Build Todo App"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
